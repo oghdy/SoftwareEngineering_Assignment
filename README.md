@@ -31,6 +31,8 @@ sequenceDiagram
     OrderProcessor->>BeverageMaker: 음료 제조 요청 (메뉴, 수량)
     BeverageMaker-->>OrderProcessor: 음료 제조 완료 알림
     KioskUI-->>User: 주문 완료 메시지 표시
+```
+![카페 키오스크 음료 주문 시퀀스 다이어그램](images/diagram.png)
 
 ## 3. 샘플 코드 구현
 
